@@ -68,10 +68,10 @@ text-align: justify;
 
 .bodyline {
   border-radius: 80px;
-  border-right: 3px solid  #DB6902;
-  border-left: 3px solid  #DB6902;
-  border-top: 1px hidden #DB6902;
-  border-bottom: 1px hidden #DB6902;
+  border-right: 3px solid  #CF0000;
+  border-left: 3px solid  #CF0000;
+  border-top: 1px hidden #CF0000;
+  border-bottom: 1px hidden #CF0000;
   background: url("https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg") bottom center repeat #0d0d0d;
 }
   
@@ -97,7 +97,7 @@ filter: alpha(opacity=100);
 
 a:hover {
 text-decoration-line: underline;
-text-decoration-color: #DB6902;
+text-decoration-color: #CF0000;
 }
 
 .forumlink
@@ -114,8 +114,8 @@ margin-top: 6px;
 {
 font-size: 15px;
 text-transform: uppercase; 
-border-left: 6px solid #DB6902;  
-border-bottom: 1px solid #DB6902;
+border-left: 6px solid #CF0000;  
+border-bottom: 1px solid #CF0000;
 color: #6e6e6e !important;
 font-family: Georgia;
 }
@@ -123,7 +123,7 @@ font-family: Georgia;
 .forumlink a:hover
 {
 text-decoration: none !important;
-color: #DB6902 !important;
+color: #CF0000 !important;
 border-left: 6px solid #9f9f9f;
 border-bottom: 1px solid #9f9f9f;
 }
@@ -135,14 +135,14 @@ margin-left: auto;
 margin-right: auto;
 margin-bottom: 10px;
 margin-top: 10px;
-border-left: 1px solid #DB6902;
-border-right: 1px solid #DB6902;
-border-top: 1px solid #DB6902; 
-border-bottom: 1px solid #DB6902;
-box-shadow: 0px 0px 4px #DB6902;
--moz-box-shadow: 0px 0px 4px #DB6902;
--o-box-shadow: 0px 0px 4px #DB6902;
--webkit-box-shadow: 0px 0px 4px #DB6902;
+border-left: 1px solid #CF0000;
+border-right: 1px solid #CF0000;
+border-top: 1px solid #CF0000; 
+border-bottom: 1px solid #CF0000;
+box-shadow: 0px 0px 4px #CF0000;
+-moz-box-shadow: 0px 0px 4px #CF0000;
+-o-box-shadow: 0px 0px 4px #CF0000;
+-webkit-box-shadow: 0px 0px 4px #CF0000;
 -htm-box-shadow: 0px 0px 4px #000000;
 background: url("https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg") bottom center repeat #0d0d0d;
 }
@@ -150,7 +150,7 @@ background: url("https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg") bottom c
 .boxinfo{
   width: 95%; 
   padding: 5px; 
-  border: 1px solid #db6902; 
+  border: 1px solid #CF0000; 
   color: #868686; 
   margin: auto;
 }
@@ -273,7 +273,7 @@ a {
 border-radius: 1px;
 -moz-border-radius: 1px;
 -webkit-border-radius: 1px;
-border: 1px inset#DB6902;
+border: 1px inset#CF0000;
 padding: 5px;
 background: #1a1a1a;
 color: #A6A6A6;
@@ -290,7 +290,7 @@ box-shadow: 1px 1px 1px #000000;
    -moz-box-shadow: 1px 1px 1px #000000;
    box-shadow: 1px 1px 1px #000000;
    color: #A6A6A6;
-   border: 1px solid #DB6902;
+   border: 1px solid #CF0000;
 }
 
 .spoiler_closed, .codebox dd {
@@ -300,7 +300,7 @@ border-radius: 1px;
 -webkit-border-radius: 1px;
 -moz-box-shadow: 1px 1px 1px #000000;
 box-shadow: 1px 1px 1px #000000;
-border: 1px solid #DB6902;
+border: 1px solid #CF0000;
 }
 .spoiler_content {
 background-color: #1a1a1a;
@@ -319,7 +319,7 @@ font-size: 95%;}
 .myname {
    font-family: Open Sans Condensed;
    font-size: 24px;
-   color: #DB6902;
+   color: #CF0000;
    text-transform: uppercase;
    letter-spacing: -1px;
    text-align: center;
@@ -335,7 +335,7 @@ font-size: 95%;}
   color: #6e6e6e;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 1px solid #DB6902;
+  border-bottom: 1px solid #CF0000;
   text-shadow: #000000  0px 0px 1px;
 }
 
@@ -347,13 +347,13 @@ font-size: 95%;}
   color: #6e6e6e;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 1px solid #DB6902;
+  border-bottom: 1px solid #CF0000;
   text-shadow: #000000  0px 0px 1px;
 }
 
 t1 {
    text-align: center;
-   background:none repeat scroll 0 0 #DB6902;
+   background:none repeat scroll 0 0 #CF0000;
    -moz-background-clip: border;
    -moz-background-origin: padding;
    -moz-background-inline-policy: continuous;
@@ -373,7 +373,7 @@ t1 {
 t2 {
    text-align: center;
    background:none repeat scroll 0 0 none;
-   border-bottom: 3px solid #DB6902 !important;
+   border-bottom: 3px solid #CF0000 !important;
    -moz-background-clip: border;
    -moz-background-origin: padding;
    -moz-background-inline-policy: continuous;
@@ -395,7 +395,7 @@ t3 {
   text-align: center;
   margin:auto;
   font-size: 16px;
-  border-bottom: 1px dashed #DB6902;
+  border-bottom: 1px dashed #CF0000;
 }
 
 tMed1 {
@@ -538,12 +538,12 @@ h6 {
    padding-bottom: 10px;
    width: 95%;
    height: relative;
-   border: 1px solid #DB6902;
+   border: 1px solid #CF0000;
    background-image: url(https://i.servimg.com/u/f82/16/01/65/00/bwbguq10.png);
    font-weight:normal;
    font-family: verdana,arial, sans-serif;
   font-size: 12px;
-  box-shadow: 2px 2px 2px #DB6902;
+  box-shadow: 2px 2px 2px #CF0000;
 }
 
 titel1 {
@@ -555,9 +555,9 @@ titel1 {
   margin-bottom: -60px; 
   height: 25px; 
   background-color: #1a1a1a; 
-  border-top: 4px solid #DB6902; 
-  border-left: 1px solid #DB6902; 
-  border-right: 1px solid #DB6902; 
+  border-top: 4px solid #CF0000; 
+  border-left: 1px solid #CF0000; 
+  border-right: 1px solid #CF0000; 
   border-radius: 30px; 
   -moz-border-radius: 30px; 
   -o-border-radius: 30px; 
@@ -587,20 +587,20 @@ nachname2 {
   line-height: 3em;
   overflow: auto;
   padding: 5px;
-  border: 1px outset #DB6902;
+  border: 1px outset #CF0000;
   border-radius: 8px; 
   -moz-border-radius: 8px; 
   -o-border-radius: 8px;
   -webkit-border-radius: 8px; 
   -htm-border-radius: 8px; 
-  -moz-box-shadow: 2px 2px 2px #DB6902;
-  box-shadow: 2px 2px 2px #DB6902;
+  -moz-box-shadow: 2px 2px 2px #CF0000;
+  box-shadow: 2px 2px 2px #CF0000;
 }
 
 .charpic {
   display: center;
   width: 520px;
-  border: 1px dashed #DB6902;
+  border: 1px dashed #CF0000;
   border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -614,7 +614,7 @@ bwtitle {
    background:none repeat scroll 0 0 #000000;
    font-size: 25px;
    line-height: 30px;
-   color:#DB6902;
+   color:#CF0000;
    text-shadow: 1px 1px 1px;
    font-weight:normal;
    font-family: \'Poiret One\', cursive;
@@ -627,8 +627,8 @@ bwtitle {
   background: #1A1A1A; 
   width: 800px; 
   background-image: url(http://abload.de/img/leisteewy7p.png); 
-  border-top: solid 2px #DB6902; 
-  border-bottom: solid 2px #DB6902;
+  border-top: solid 2px #CF0000; 
+  border-bottom: solid 2px #CF0000;
 }
 
 .tabello {
@@ -643,7 +643,7 @@ bwtitle {
   font-family:Palatino Linotype;
   font-size:30px;
   text-align:center;
-  color:#DB6902;
+  color:#CF0000;
   font-variant:small-caps;
   letter-spacing:2px;
   font-weight:bold;
@@ -690,7 +690,7 @@ bwtitle {
   text-transform:none;
   text-shadow:0px 1px 1px #00000;
   line-height:12px;
-  background-color:#DB6902;
+  background-color:#CF0000;
 } 
 
 .boux {
@@ -729,10 +729,10 @@ img#i_logo {
 
 .rep-button, .rep-button:active {
     background: url("https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg") bottom center repeat #0d0d0d;
-    border: 1px solid #DB6803;
+    border: 1px solid #820101;
     border-radius: 5px;
     box-shadow: 0 1px 0 #000000;
-    color: #DB6803;
+    color: #820101;
     cursor: pointer;
     float: left;
     font-family: Trebuchet MS;
@@ -755,7 +755,7 @@ img#i_logo {
     background-color: #2e2e2e;
     clear: both;
     font-size: 12px;
-    border-left: 5px solid #DB6803;
+    border-left: 5px solid #820101;
     margin: 0 0 6px;
     padding: 2px 3px;
 }
@@ -778,7 +778,7 @@ img#i_logo {
 
 /* Textfarbe der Links */
 #fa_toolbar #fa_menulist a {
-  color: #DB6803 !important;
+  color: #820101 !important;
 }
 /* Textfarbe des Rangs */
 #fa_toolbar a#fa_ranktitle {
@@ -790,7 +790,7 @@ img#i_logo {
 }
 
 #fa_toolbar #fa_usermenu .bold {
-  color: #DB6803;
+  color: #820101;
 }
 
 /*Navigationsbar links*/
@@ -799,7 +799,7 @@ img#i_logo {
   height: auto;
   background-image: url(https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg); /* Hintergrund Bild */
   background-color: none;
-  border-left: 3px solid #db6902; 
+  border-left: 3px solid #CF0000; 
   border-radius: 10px 0px 0px 10px; 
   -webkit-border-radius: 10px 0px 0px 10px; 
   -moz-border-radius: 10px 0px 0px 10px;
@@ -807,7 +807,7 @@ img#i_logo {
 }
 .navihead {
   height: 20px;
-  background-color: #db6902;
+  background-color: #CF0000;
   background-image: none;
   margin: auto;
 }
@@ -830,7 +830,7 @@ img#i_logo {
 .vertical-menu a:hover, .dropdown-btn:hover, .button:hover  {
   background-color: #9f9f9f !important; /* Grey background on mouse-over */
   background-image: none !important;
-  color: #db6902 !important;
+  color: #CF0000 !important;
   border: none !important;
   text-align: left !important;
 }
@@ -838,7 +838,7 @@ img#i_logo {
 .active {
   background-color: #9f9f9f !important; /* Grey background on mouse-over */
   background-image: none !important;
-  color: #db6902 !important;
+  color: #CF0000 !important;
   border: none !important;
   padding: 12px !important;
   text-decoration: none !important;
@@ -955,7 +955,7 @@ td.catHead [href="/viewonline"] {
   text-align: center; 
   position: relative; 
   margin:auto; font-family: 'Exo 2', sans-serif; 
-  color: #db6902; 
+  color: #CF0000; 
   font-size: 16px; 
   font-weight: bold;
 }
@@ -975,7 +975,7 @@ details > summary {
   width: 460px; 
   background-color: none; 
   cursor: pointer; 
-  border-bottom: solid 2px #db6902; 
+  border-bottom: solid 2px #CF0000; 
   margin: auto;
 }
 
@@ -1001,7 +1001,7 @@ details > summary {
   border-bottom:1px black solid; 
   text-align: center; 
   font-weight:bold;
-  color:#DB6902; 
+  color:#CF0000; 
   text-shadow: #000000 1px 1px 1px;
 }
 
@@ -1015,7 +1015,7 @@ details > summary {
   border-top:1px black solid;
   text-align: center; 
   font-weight:bold;
-  color:#DB6902; 
+  color:#CF0000; 
   text-shadow: #000000 1px 1px 1px;
 }
 
@@ -1085,7 +1085,7 @@ details > summary {
 }
 
 .prev:hover, .next:hover {
-  background-color: #db6902;
+  background-color: #CF0000;
   color: white;
   text-decoration: none !important;
 }
@@ -1111,5 +1111,5 @@ details > summary {
 
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
-  background-color: #db6902;
+  background-color: #CF0000;
 }
