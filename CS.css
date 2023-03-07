@@ -179,6 +179,10 @@ td.catSides, td.spaceRow, th.thSides {
     border-width: 0 0px;
 }
 
+.cattitle {
+  color: #ffffff !important;
+}
+
 /*Codeauswahl Cursor*/
 .selectCode { float:right; text-transform: uppercase; cursor:pointer; }
 
