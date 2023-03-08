@@ -165,8 +165,15 @@ background: url("https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg") bottom c
 border: none !important;
 }
 
+.secondarytitle, .secondarytitle h2 {
+margin: 0;
+padding: 0;
+color: #fff;
+}
+
 th {
-  font-size: 11px !important;
+font-size: 11px !important;
+color: #ffffff !important;
 }
 
 .thLeft, .thRight
@@ -181,6 +188,24 @@ td.catSides, td.spaceRow, th.thSides {
 
 a.cattitle {
   color: #ffffff !important;
+}
+
+a.gen, a.genmed, a.gensmall, {
+color: #ed5353;
+text-decoration: none;
+}
+
+a.gen:hover, a.genmed:hover, a.gensmall:hover {
+color: #ed5353;
+}
+
+a:hover, a.postlink:hover {
+text-decoration-line: underline;
+text-decoration-color: #ed5353;
+}
+
+a:link, a:visited, a.postlink:link, a.postlink:visited{
+color: #ed5353;
 }
 
 /*Codeauswahl Cursor*/
@@ -759,7 +784,7 @@ img#i_logo {
     background-color: #2e2e2e;
     clear: both;
     font-size: 12px;
-    border-left: 5px solid #820101;
+    border-left: 5px solid #cf0000;
     margin: 0 0 6px;
     padding: 2px 3px;
 }
@@ -782,7 +807,7 @@ img#i_logo {
 
 /* Textfarbe der Links */
 #fa_toolbar #fa_menulist a {
-  color: #820101 !important;
+  color: #ed5353 !important;
 }
 /* Textfarbe des Rangs */
 #fa_toolbar a#fa_ranktitle {
@@ -794,7 +819,11 @@ img#i_logo {
 }
 
 #fa_toolbar #fa_usermenu .bold {
-  color: #820101;
+  color: #ed5353;
+}
+
+#fa_right #fa_menu #fa_welcome, #fa_right.notification #fa_menu #fa_welcome, #fa_welcome, #fa_right #fa_notifications {
+ color: #ed5353;
 }
 
 /*Navigationsbar links*/
