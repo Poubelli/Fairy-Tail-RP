@@ -201,11 +201,11 @@ color: #ed5353;
 
 a:hover, a.postlink:hover, a.topictitle:hover {
 text-decoration-line: underline;
-text-decoration-color: #ed5353 !important;
+text-decoration-color: #ed5353;
 }
 
 a:link, a:visited, a.postlink:link, a.postlink:visited, a.topictitle, a.topictitle:visited {
-color: #ed5353 !important;
+color: #ed5353;
 }
 
 /*Codeauswahl Cursor*/
