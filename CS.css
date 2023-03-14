@@ -184,7 +184,7 @@ text-decoration-line: underline;
 text-decoration-color: #ed5353;
 }
 
-a:link, a:visited, a.postlink:link, a.postlink:visited, a.topictitle, a.topictitle:link, a.topictitle:visited, a.mainmenu, a.mainmenu:link, a.mainmenu;visited {
+a:link, a:visited, a.postlink:link, a.postlink:visited, a.topictitle, a.topictitle:link, a.topictitle:visited, a.mainmenu, a.mainmenu:link, a.mainmenu:visited {
 color: #ed5353;
 }
 
