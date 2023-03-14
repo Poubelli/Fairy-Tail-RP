@@ -170,7 +170,7 @@ a.cattitle {
   color: #ffffff !important;
 }
 
-a.gen, a.genmed, a.gensmall, {
+a.gen, a.genmed, a.gensmall {
 color: #ed5353;
 text-decoration: none;
 }
@@ -179,13 +179,22 @@ a.gen:hover, a.genmed:hover, a.gensmall:hover {
 color: #ed5353;
 }
 
-a:hover, a.postlink:hover, a.topictitle:hover, .btn-floating-left, a.mainmenu:hover {
+a:hover, a.postlink:hover, a.topictitle:hover, .btn-floating-left {
 text-decoration-line: underline;
 text-decoration-color: #ed5353;
 }
 
-a:link, a:visited, a.postlink:link, a.postlink:visited, a.topictitle, a.topictitle:link, a.topictitle:visited, a.mainmenu, a.mainmenu:link, a.mainmenu:visited {
+a.mainmenu:hover {
+text-decoration-line: underline;
+text-decoration-color: #ed5353;
+}
+
+a:link, a:visited, a.postlink:link, a.postlink:visited, a.topictitle, a.topictitle:link, a.topictitle:visited {
 color: #ed5353;
+}
+
+a.mainmenu, a.mainmenu:link, a.mainmenu:visited {
+  color: #ed5353;
 }
 
 /*Codeauswahl Cursor*/
