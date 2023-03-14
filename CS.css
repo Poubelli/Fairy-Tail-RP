@@ -199,13 +199,13 @@ a.gen:hover, a.genmed:hover, a.gensmall:hover {
 color: #ed5353;
 }
 
-a:hover, a.postlink:hover, a.topictitle:hover {
+a:hover, a.postlink:hover, a.topictitle:hover, .btn-floating-left, a.mainmenu:hover {
 text-decoration-line: underline;
-text-decoration-color: #ed5353;
+text-decoration-color: #ed5353 !important;
 }
 
-a:link, a:visited, a.postlink:link, a.postlink:visited, a.topictitle, a.topictitle:link, a.topictitle:visited {
-color: #ed5353;
+a:link, a:visited, a.postlink:link, a.postlink:visited, a.topictitle, a.topictitle:link, a.topictitle:visited, a.mainmenu, a.mainmenu:link, a.mainmenu;visited {
+color: #ed5353 !important;
 }
 
 /*Codeauswahl Cursor*/
@@ -737,6 +737,11 @@ bwtitle {
   padding:10px; 
   margin-top:10px; 
   margin-bottom:10px;
+}
+
+bw {
+font-weight: bold;
+color: #cf0000;
 }
 
 /*Forencodes Bewerbung ab 2023*/
