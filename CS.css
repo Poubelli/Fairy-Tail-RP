@@ -80,26 +80,6 @@ body
 background: url(http://abload.de/img/leisteewy7p.png) top center repeat;
 max-width: relative;}
 
-a.mainmenu
-{
-opacity: 0.75;
--moz-opacity: 0.75;
--khtml-opacity: 0.75;
-filter: alpha(opacity=75);
-}
-a.mainmenu:hover
-{
-opacity: 1;
--moz-opacity: 1;
--khtml-opacity: 1;
-filter: alpha(opacity=100);
-}
-
-a:hover {
-text-decoration-line: underline;
-text-decoration-color: #CF0000;
-}
-
 .forumlink
 {
 display: block;
