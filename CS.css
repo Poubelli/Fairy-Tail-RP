@@ -1146,3 +1146,61 @@ details > summary {
 .active, .dot:hover {
   background-color: #CF0000;
 }
+
+/*Ausrichtung des Wahlschalters*/
+#wahl {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    text-align: center;/*left, center, right möglich*/
+    }
+
+/*Wahlschalter färben*/
+select{
+    background: #3d3d3d none repeat scroll 0 0 !important; /*Anpassung an das Forum*/
+    border: 1px solid #6e6e6e !important; /*Anpassung an das Forum*/
+    border-radius: 4px !important;
+    height: auto;
+    padding: 3px;
+    width: 140px;
+}
+
+input.post, textarea.post, select, #text_editor_iframe, textarea.inputbox{
+  background: #3d3d3d none repeat scroll 0 0 !important;
+}
+
+.bk {
+background-image: url(http://abload.de/img/leisteewy7p.png);
+  height:180px;
+  width: 180px;
+}
+
+/*Link Briefkasten Bild gelagert: https://i.servimg.com/u/f75/18/10/02/62/briefk14.png*/
+
+/*Accountswitcher*/
+
+#accountswitch {
+    text-align: center;
+}
+#username, #password {
+    font-size: 11px;
+    display: inline-block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+#switch_username, #switch_password {
+    background: #3d3d3d none repeat scroll 0 0; /*Anpassung an das Forum*/
+    border: 1px solid #6e6e6e; /*Anpassung an das Forum*/
+    border-radius: 4px;
+    height: auto;
+    padding: 3px;
+    width: 140px;
+}
+#switch_username:hover, #switch_username:focus, #switch_password:hover, #switch_password:focus {
+    border: 1px solid #cf0000; /*Anpassung an das Forum*/
+}
+div#accountswitch input.button2 {
+    cursor: pointer;
+    max-width: 120px;
+    text-align: center;
+}
