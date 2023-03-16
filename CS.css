@@ -907,67 +907,7 @@ img#i_logo {
   font-weight: bold;
 }
 
-/*Nummern für Gruppen */
-
-a[href="/g1-admin"]:after {
-  content:"[3]";
-  color: #B5B5B5;
-  padding-left:2px;
-}
-
-a[href="/g2-moderator"]:after {
-  content:"[7]";
-  color: #B5B5B5;
-  padding-left:2px;
-}
-
-a[href="/g3-fairy-tail"]:after {
-  content:"[16]";
-  color: #B5B5B5;
-  padding-left:2px;
-}
-
-a[href="/g16-crimson-sphynx"]:after {
-  content:"[16]";
-  color: #B5B5B5;
-  padding-left:2px;
-}
-
-a[href="/g4-royal-crusade"]:after {
-  content:"[17]";
-  color: #B5B5B5;
-  padding-left:2px;
-}
-
-a[href="/g7-rune-knights"]:after {
-  content:"[20]";
-  color: #B5B5B5;
-  padding-left:2px;
-}
-
-a[href="/g19-satyrs-cornucopia"]:after {
-  content:"[21]";
-  color: #B5B5B5;
-  padding-left:2px;
-}
-
-a[href="/g18-gildenlose-magier"]:after {
-  content:"[16]";
-  color: #B5B5B5;
-  padding-left:2px;
-}
-
-a[href="/g17-npc"]:after {
-  content:"[2]";
-  color: #B5B5B5;
-  padding-left:2px;
-}
-
-a[href="/g25-aushilfen"]:after {
-  content:"[0]";
-  color: #B5B5B5;
-  padding-left:2px;
-}
+/*Gruppennummern waren hier*/
 
 /*Ändert den Titel Wer ist online unterhalb des Forums*/
 td.catHead [href="/viewonline"] {
