@@ -1136,3 +1136,9 @@ div#accountswitch input.button2 {
     max-width: 120px;
     text-align: center;
 }
+
+button.button2:hover, input.button2:hover {
+  border: 1px solid #cf0000;
+  color: #cf0000;
+  background-position: 0 100%;
+}
