@@ -772,7 +772,14 @@ color: #cf0000;
 }
 
 .bewerbung h3{
-  font-size:20px;
+  text-transform: lowercase;
+  font-size:18px;
+  background-color:#333;
+  text-shadow:none;
+  font-weight:medium; 
+  width:600px;
+  margin-left:0px;
+  margin-top:20px;
 }
 
 bw2 {
