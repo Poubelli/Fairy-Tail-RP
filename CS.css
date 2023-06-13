@@ -460,81 +460,6 @@ tMed2 {
    display: block;
 }
 
-/*ehemalige Mitglieder Färbung für Listen*/
-ex {
-   color:#B22222;
-   font-style:italic;
-}
-
-/*Beobachtung Färbung für Listen*/
-be {
-   color:#ffcc00;
-   font-style:italic;
-}
-
-/*Färbung für Fairy Tail*/
-ft {
-   color:#ff8400;
-   font-weight:bold;
-   text-shadow: #000000 1px 1px 1px;
-}
-
-/*Färbung für Crimson Sphynx*/
-cs {
-   color:#db143c;
-   font-weight:bold;
-   text-shadow: #000000 1px 1px 1px;
-}
-
-/*Färbung für Rune Knights*/
-rk {
-   color:#3636a3;
-   font-weight:bold;
-   text-shadow: #000000 1px 1px 1px;
-}
-
-/*Färbung für Royal Crusade*/
-rc {
-   color:#990f99;
-   font-weight:bold;
-   text-shadow: #000000 1px 1px 1px;
-}
-
-/*Färbung für Satyrs Cornucopia*/
-sc {
-   color:#006600;
-   font-weight:bold;
-   text-shadow: #000000 1px 1px 1px;
-}
-
-/*Färbung für gildenlose Magier*/
-gl {
-   color:#d1bc8a;
-   font-weight:bold;
-   text-shadow: #000000 1px 1px 1px;
-}
-
-/*Färbung für Mods*/
-mo {
-   color:#15A308;
-   font-weight:bold;
-   text-shadow: #000000 1px 1px 1px;
-}
-
-/*Färbung für Aushilfen*/
-he {
-   color:#72b879;
-   font-weight:bold;
-   text-shadow: #000000 1px 1px 1px;
-}
-
-/*Färbung für Admins*/
-ad {
-   color:#008A7F;
-   font-weight:bold;
-   text-shadow: #000000 1px 1px 1px;
-}
-
 .signature_div img {
    max-height: 300px;
    max-width: 500px;}
@@ -797,6 +722,14 @@ bw2 {
   font-weight: bold;
   color: #CF0000;
   width:140px;
+  float:left;
+  display:block;
+}
+
+.bewerbung magie{
+  font-weight: bold;
+  color: #ff9900;
+  width:350px;
   float:left;
   display:block;
 }
