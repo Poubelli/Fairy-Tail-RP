@@ -1228,6 +1228,8 @@ button.button2:hover, input.button2:hover {
         #mes_contenus, #mes_onglets{
           width: 100%;
           margin: auto;}
+	#o_1{
+  	  border-left:3px solid #CF0000;}
 
 /*Achievements*/
 
