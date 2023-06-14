@@ -1224,13 +1224,13 @@ button.button2:hover, input.button2:hover {
   	  margin-top:-2px;
           line-height: normal;
           font-size: 13px;}
-        #mes_contenus, #mes_onglets{
-          width: 870px;
+        #mes_contenus{
           margin: auto;
-	  }
-	#mes_onglets{
-          margin-left: -20px;
-	  }
+          }
+	 #mes_onglets {
+  	  padding-right: 40px;
+  	  margin: auto;
+          }
 	#o_1{
   	  border-left:3px solid #CF0000;
 	  border-top-left-radius: 20px;}
