@@ -1212,7 +1212,6 @@ button.button2:hover, input.button2:hover {
         }
         .mon_contenu{
           color: #b5b5b5;
-          height:200px;
           background: none;
           border-top: 0px hidden #CF0000;
           border-right: 3px solid #CF0000;
@@ -1226,10 +1225,15 @@ button.button2:hover, input.button2:hover {
           line-height: normal;
           font-size: 13px;}
         #mes_contenus, #mes_onglets{
-          width: 897px;
-          margin: auto;}
+          width: 750px;
+          margin: auto;
+	  }
+	#mes_onglets{
+          margin-left: -20px;
+	  }
 	#o_1{
-  	  border-left:3px solid #CF0000;}
+  	  border-left:3px solid #db6902;
+	  border-top-left-radius: 20px;}
 
 /*Achievements*/
 
