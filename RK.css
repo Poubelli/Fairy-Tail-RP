@@ -1,0 +1,1263 @@
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 70px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 250px;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+.fa_usermenu img {
+    max-height: 185px;
+    max-width: 120px;
+    width: 1500px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 230px;
+  text-align: justify;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+ 
+span.text-content span {
+  display: table-cell;
+  text-align: justify;
+  vertical-align: justify;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 230px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.message {
+padding: 5px;
+text-align: justify;
+}
+
+.bodyline {
+  border-radius: 80px;
+  border-right: 3px solid  #2b54a6 !important;
+  border-left: 3px solid  #2b54a6 !important;
+  border-top: 1px hidden #2b54a6 !important;
+  border-bottom: 1px hidden #2b54a6 !important;
+  background: url("https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg") bottom center repeat #0d0d0d;
+}
+  
+body
+{
+background: url(http://abload.de/img/leisteewy7p.png) top center repeat;
+max-width: relative;}
+
+.forumlink
+{
+display: block;
+width: 100%;
+text-align: left;
+padding-left: 10px;
+  padding-right: 10px;
+margin-top: 6px;
+}
+
+.forumlink a
+{
+font-size: 15px;
+text-transform: uppercase; 
+border-left: 6px solid #2b54a6;  
+border-bottom: 1px solid #2b54a6;
+color: #6e6e6e !important;
+font-family: Georgia;
+}
+
+.forumlink a:hover
+{
+text-decoration: none !important;
+color: #2b54a6 !important;
+border-left: 6px solid #9f9f9f;
+border-bottom: 1px solid #9f9f9f;
+}
+
+.forumline
+{
+max-width: 2000px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+margin-top: 10px;
+border-left: 1px solid #2b54a6;
+border-right: 1px solid #2b54a6;
+border-top: 1px solid #2b54a6; 
+border-bottom: 1px solid #2b54a6;
+box-shadow: 0px 0px 4px #2b54a6;
+-moz-box-shadow: 0px 0px 4px #2b54a6;
+-o-box-shadow: 0px 0px 4px #2b54a6;
+-webkit-box-shadow: 0px 0px 4px #2b54a6;
+-htm-box-shadow: 0px 0px 4px #000000;
+background: url("https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg") bottom center repeat #0d0d0d;
+}
+
+.boxinfo{
+  width: 95%; 
+  padding: 5px; 
+  border: 1px solid #2b54a6; 
+  color: #868686; 
+  margin: auto;
+}
+
+.borderinfo{
+  border-left: 8px solid white;
+  padding-left: 5px;
+}
+
+.row3Right, .thHead, .thCornerL, .thCornerR, .thTop, .catLeft, .catRight, .catHead, .catBottom
+{
+border: none !important;
+}
+
+.secondarytitle, .secondarytitle h2 {
+margin: 0;
+padding: 0;
+color: #fff;
+}
+
+th {
+font-size: 11px !important;
+color: #ffffff !important;
+}
+
+.thLeft, .thRight
+{
+border-left: none !important;
+border-right: none !important;
+}
+
+td.catSides, td.spaceRow, th.thSides {
+    border-width: 0 0px;
+}
+
+a.cattitle {
+  color: #ffffff !important;
+}
+
+a.gen, a.genmed, a.gensmall {
+color: #6387cf;
+text-decoration: none;
+}
+
+a.gen:hover, a.genmed:hover, a.gensmall:hover {
+color: #6387cf;
+}
+
+a:hover, a.postlink:hover, a.topictitle:hover, .btn-floating-left {
+text-decoration-line: underline;
+text-decoration-color: #6387cf;
+}
+
+a.mainmenu:hover {
+text-decoration-line: underline;
+text-decoration-color: #6387cf;
+}
+
+a:link, a:visited, a.postlink:link, a.postlink:visited, a.topictitle, a.topictitle:link, a.topictitle:visited {
+color: #6387cf;
+}
+
+a.mainmenu, a.mainmenu:link, a.mainmenu:visited {
+  color: #6387cf;
+}
+
+/*Codeauswahl Cursor*/
+.selectCode { float:right; text-transform: uppercase; cursor:pointer; }
+
+/*Justify der Posts*/ .postbody {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align:justify;
+}
+
+/*--- Scrollbars ---*/
+
+.overflow1 {
+  width:300px; 
+  height:200px; 
+  overflow:auto;
+  text-align: justify; 
+}
+
+.overflow2 {
+  width:500px; 
+  height:200px; 
+  overflow:auto;
+  text-align: justify; 
+}
+
+.overflow3 {
+  width:400px; 
+  height:200px; 
+  overflow:auto;
+  text-align: justify; 
+}
+
+.slidez {
+  position: relative;
+  overflow:hidden;
+  height: 80px;
+  width: 265px;
+  background: lightgrey; /* Couleur fond image slide */
+  color: white; /* Couleur écriture image slide */
+  margin-top: 2px;
+  border: 1px dotted white; /* Épaisseur, style, couleur bordure image slide */
+}
+
+.slidez img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: transform 3s;
+  -moz-transition: -moz-transform 4s;
+  -o-transition: -o-transform 4s;
+  -webkit-transition: -webkit-transform 4s; }
+
+
+.slidez:hover img{
+  transform: translateY(+208px);
+  -moz-transform: translateY(+208px);
+  -o-transform: translateY(+208px);
+  -webkit-transform: translateY(+208px);  
+}
+
+a {
+  text-decoration:none;
+}
+
+
+/* ------------------------- QEEL ------------------------ */
+
+.Groupes {
+  margin-top: -20px;
+    margin-left: 30;
+  background: #FFFFFF;
+        border-top: 3px solid silver;
+        border[hide][/hide]-bottom: 3px solid silver;
+        box-shadow: 0 0 3px silver;
+        padding : 15px;
+        width: 320px;
+        height: 50px;
+  overflow: auto;
+ font-family: \'Verdana\', cursive; 
+  font-size:10px;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 3;
+  color:#A6A6A6;
+  text-shadow: 0 0 2px #fff;
+}
+
+/*CB EN SPOILER*/
+
+.code {
+border-radius: 1px;
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+border: 1px inset#2b54a6;
+padding: 5px;
+background: #1a1a1a;
+color: #A6A6A6;
+-moz-box-shadow: 1px 1px 1px #000000;
+box-shadow: 1px 1px 1px #000000;
+}
+
+.quote {
+   border-radius: 1px;
+   -moz-border-radius: 1px;
+   -webkit-border-radius: 1px;
+   padding: 5px;
+   background-color: #1a1a1a;
+   -moz-box-shadow: 1px 1px 1px #000000;
+   box-shadow: 1px 1px 1px #000000;
+   color: #A6A6A6;
+   border: 1px solid #2b54a6;
+}
+
+.spoiler_closed, .codebox dd {
+background-color: #1a1a1a;
+border-radius: 1px;
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+-moz-box-shadow: 1px 1px 1px #000000;
+box-shadow: 1px 1px 1px #000000;
+border: 1px solid #2b54a6;
+}
+.spoiler_content {
+background-color: #1a1a1a;
+border-radius: 1px;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+-moz-box-shadow: 1px 1px 1px #000000;
+box-shadow: 1px 1px 1px #000000;
+-moz-border-radius: 6px;
+border-right: 1px solid #6e6e6e;
+border-bottom: 1px solid #6e6e6e;
+color: #6e6e6e;
+padding: 5px;
+font-size: 95%;}
+
+.myname {
+   font-family: Open Sans Condensed;
+   font-size: 24px;
+   color: #2b54a6;
+   text-transform: uppercase;
+   letter-spacing: -1px;
+   text-align: center;
+   line-height: 22px;
+   margin-top: 3px;
+}
+
+.genmed.module-title {
+  font-family: Open Sans Condensed;
+  font-size: 14px;
+  text-align: center;
+  line-height: 16px;
+  color: #6e6e6e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #2b54a6;
+  text-shadow: #000000  0px 0px 1px;
+}
+
+.genmed.center {
+  font-family: Open Sans Condensed;
+  font-size: 14px;
+  text-align: center;
+  line-height: 16px;
+  color: #6e6e6e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #2b54a6;
+  text-shadow: #000000  0px 0px 1px;
+}
+
+t1 {
+   text-align: center;
+   background:none repeat scroll 0 0 #2b54a6;
+   -moz-background-clip: border;
+   -moz-background-origin: padding;
+   -moz-background-inline-policy: continuous;
+   -moz-border-radius-topleft: 15px;
+   -moz-border-radius-topright: 15px;
+   -moz-border-radius-bottomright: 0px;
+   -moz-border-radius-bottomleft: 0px;
+   font-size: 25px;
+   line-height: 11px;
+   color:#ffffff;
+   text-shadow: 2px 2px 10px #000000;
+   font-weight:normal;
+   font-family: \'Times New Roman\', sans-serif;
+   display: block;
+}
+
+t2 {
+   text-align: center;
+   background:none repeat scroll 0 0 none;
+   border-bottom: 3px solid #2b54a6 !important;
+   -moz-background-clip: border;
+   -moz-background-origin: padding;
+   -moz-background-inline-policy: continuous;
+   -moz-border-radius-topleft: 8px;
+   -moz-border-radius-topright: 8px;
+   -moz-border-radius-bottomright: 8px;
+   -moz-border-radius-bottomleft: 8px;
+   font-size: 15px;
+   line-height: 11px;
+   color:#ffffff !important;
+   text-shadow: 2px 2px 10px #000000;
+   font-weight:normal;
+   font-family: \'Times New Roman\', sans-serif;
+   display: block;
+}
+
+t3 {
+  font-family: Palatino Linotype;
+  text-align: center;
+  margin:auto;
+  font-size: 16px;
+  border-bottom: 1px dashed #2b54a6;
+}
+
+tMed1 {
+   text-align: center;
+   background:none repeat scroll 0 0 #0a451c;
+   -moz-background-clip: border;
+   -moz-background-origin: padding;
+   -moz-background-inline-policy: continuous;
+   -moz-border-radius-topleft: 15px;
+   -moz-border-radius-topright: 15px;
+   -moz-border-radius-bottomright: 0px;
+   -moz-border-radius-bottomleft: 0px;
+   width: 100%;
+   position: relative;
+   font-size: 25px;
+   line-height: 11px;
+   color:#ffffff;
+   text-shadow: 2px 2px 10px #000000;
+   font-weight:normal;
+   font-family: \'Times New Roman\', sans-serif;
+   display: block;
+}
+
+tMed2 {
+   text-align: center;
+   background:none repeat scroll 0 0 none;
+   border-bottom: 3px solid #0a451c;
+   -moz-background-clip: border;
+   -moz-background-origin: padding;
+   -moz-background-inline-policy: continuous;
+   -moz-border-radius-topleft: 8px;
+   -moz-border-radius-topright: 8px;
+   -moz-border-radius-bottomright: 8px;
+   -moz-border-radius-bottomleft: 8px;
+   width: 60%;
+   position: relative;
+   margin: auto;
+   font-size: 15px;
+   line-height: 11px;
+   color:#ffffff;
+   text-shadow: 2px 2px 10px #000000;
+   font-weight:normal;
+   font-family: \'Times New Roman\', sans-serif;
+   display: block;
+}
+
+.signature_div img {
+   max-height: 300px;
+   max-width: 500px;}
+
+
+/*Forencodes*/
+strong, b, bold, italic, i, oblique, .navibutton, .smolnavibutton {
+  text-shadow: #000000 1px 1px 1px;}
+
+s, strike {
+text-decoration: line-through;
+}
+
+h6 {
+   margin: auto;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   width: 95%;
+   height: relative;
+   border: 1px solid #2b54a6;
+   background-image: url(https://i.servimg.com/u/f82/16/01/65/00/bwbguq10.png);
+   font-weight:normal;
+   font-family: verdana,arial, sans-serif;
+  font-size: 12px;
+  box-shadow: 2px 2px 2px #2b54a6;
+}
+
+titel1 {
+  display: block;
+  position: relative;
+  width: 95%; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-bottom: -60px; 
+  height: 25px; 
+  background-color: #1a1a1a; 
+  border-top: 4px solid #2b54a6; 
+  border-left: 1px solid #2b54a6; 
+  border-right: 1px solid #2b54a6; 
+  border-radius: 30px; 
+  -moz-border-radius: 30px; 
+  -o-border-radius: 30px; 
+  -webkit-border-radius: 30px; 
+  -htm-border-radius: 30px; 
+  font-family: trebuchet; 
+  padding: 5px; 
+  font-size: 24px; 
+  color: #6e6e6e; 
+  text-align: center; 
+  font-weight: bold;
+}
+
+nachname2 {
+  display: block; 
+  text-align: center;
+  font-family: arial narrow; 
+  font-size: 56px; 
+  letter-spacing: 2px; 
+  color: #006699;
+  text-shadow: 0px 0px 10px #000000
+}
+
+.scrollbox {
+  width: 95%;
+  height: 150px;
+  line-height: 3em;
+  overflow: auto;
+  padding: 5px;
+  border: 1px outset #2b54a6;
+  border-radius: 8px; 
+  -moz-border-radius: 8px; 
+  -o-border-radius: 8px;
+  -webkit-border-radius: 8px; 
+  -htm-border-radius: 8px; 
+  -moz-box-shadow: 2px 2px 2px #2b54a6;
+  box-shadow: 2px 2px 2px #2b54a6;
+}
+
+.charpic {
+  display: center;
+  width: 520px;
+  border: 1px dashed #2b54a6;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  padding: 30px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+bwtitle {
+     text-align: center;
+   background:none repeat scroll 0 0 #000000;
+   font-size: 25px;
+   line-height: 30px;
+   color:#2b54a6;
+   text-shadow: 1px 1px 1px;
+   font-weight:normal;
+   font-family: \'Poiret One\', cursive;
+   display: block;
+}
+
+/*Forencodes Bewerbung Bis 2023*/
+
+.hintergrund {
+  background: #1A1A1A; 
+  width: 750px; 
+  background-image: url(http://abload.de/img/leisteewy7p.png); 
+  border-top: solid 2px #2b54a6; 
+  border-bottom: solid 2px #2b54a6;
+}
+
+.tabello {
+  align: center; 
+  width: 750px; 
+  cellspacing: 4; 
+  background-image: url(http://abload.de/img/leisteewy7p.png); 
+  colspan: 2;
+}
+
+.had1 {
+  font-family:Palatino Linotype;
+  font-size:30px;
+  text-align:center;
+  color:#2b54a6;
+  font-variant:small-caps;
+  letter-spacing:2px;
+  font-weight:bold;
+  text-transform:none;
+  text-shadow:0px 1px 1px #000000;
+  line-height:25px;
+}
+
+.had2 {
+  font-family:Palatino Linotype;
+  font-size:10px;
+  text-align:center;
+  color:#A6A6A6;
+  font-variant:small-caps;
+  letter-spacing:5px;
+  font-weight:lighter;
+  text-transform:none;
+  text-shadow:0px 1px 5px #f2f2f2;
+  line-height:12px;
+  background-color:#1A1A1A;
+}
+
+.td1 {
+  colspan: 2; 
+  background-image: url(http://abload.de/img/leisteewy7p.png);
+}
+
+.td2 {
+  colspan: 1; 
+  align: center; 
+  font-family:Palatino Linotype;
+  font-size:10px;
+  color:#A6A6A6;width: 400px;
+}
+
+.klain 
+{font-family:Palatino Linotype;
+  font-size:12px;
+  text-align:center;
+  color:#1A1A1A;
+  font-variant:small-caps;
+  letter-spacing:5px;
+  font-weight:bold;
+  text-transform:none;
+  text-shadow:0px 1px 1px #00000;
+  line-height:12px;
+  background-color:#2b54a6;
+} 
+
+.boux {
+  padding:-3px; 
+  width:700px; 
+  max-height:600px; 
+  overflow: auto;
+  text-align:left; 
+  background-image:url(http://abload.de/img/forenb122xsmn.jpg); 
+  font-family: Tahoma; 
+  color:#A6A6A6; 
+  font-size:12px; 
+  line-height:16px; 
+  margin-top: 5px; 
+  padding:10px; 
+  margin-top:10px; 
+  margin-bottom:10px;
+}
+
+bw {
+font-weight: bold;
+color: #2b54a6;
+}
+
+/*Forencodes Bewerbung ab 2023*/
+
+.bewerbung {
+  width: 600px;
+  margin: auto;
+  border:0;
+  box-shadow: 0px 0px 4px #000000;
+  background-color: #3d3d3d;
+  text-align: justify;
+  padding: 20px;
+  padding-top:5px;
+  padding-bottom:10px;
+}
+
+.bewerbung h1, .bewerbung h2, .bewerbung h3{
+  font-family:Palatino Linotype;
+  text-align: center;
+  color: #2b54a6;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px #000000;
+  line-height: 1.1;
+  margin:0;
+  font-size:30px;
+  background-color:#2e2e2e;
+  clear:both;
+  margin-top:10px;
+  margin-bottom:10px;
+  width:640px;
+  margin-left:-20px;
+  font-size:30px;
+}
+
+.bewerbung h1{
+  text-transform:uppercase;
+}
+
+.bewerbung h3{
+  text-transform: lowercase;
+  font-size:18px;
+  background-color:#333;
+  text-shadow:none;
+  font-weight:medium; 
+  width:600px;
+  margin-left:0px;
+  margin-top:20px;
+}
+
+bw2 {
+  font-weight: bold;
+  color: #2b54a6;
+}
+
+.statblock{
+  width:250px; 
+  float:right; 
+  text-align: right
+}
+
+.bewerbung werte{
+  font-weight: bold;
+  color: #2b54a6;
+  width:140px;
+  float:left;
+  display:block;
+}
+
+.bewerbung magie{
+  font-weight: bold;
+  color: #ff9900;
+  width:350px;
+  float:left;
+  display:block;
+}
+
+.bewerbung pot{
+  font-weight: bold;
+  color: #2b54a6;
+  font-weight: bold;
+  color: #2b54a6;
+  float:left;
+  text-float:left;
+  display:block
+}
+
+.bwbild{
+  background-color:black;
+  color:white;
+  border:1px solid #2b54a6:5px;
+  float:left; 
+  height:400px;
+  width:250px;
+  margin-right:15px;
+  margin-bottom:25px;
+}
+
+.bwbild2{
+  background-color:black;
+  color:white;
+  border:1px solid #2b54a6:5px;
+  width:500px;
+  height:290px;
+  margin:auto;
+}
+
+/*Ende Bewerbungscodes*/
+
+.bodylinewidth {
+    margin-top: 200px;
+  margin-bottom: 50px;
+  width: 60%;
+}
+
+img#i_logo {
+    margin-top: -180px;
+    position: center;
+}
+
+.rep-button, .rep-button:active {
+    background: url("https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg") bottom center repeat #0d0d0d;
+    border: 1px solid #6387cf;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #000000;
+    color: #6387cf;
+    cursor: pointer;
+    float: left;
+    font-family: Trebuchet MS;
+    font-size: 11.4px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 3px 3px 6px 0;
+    outline: none;
+    padding: 2px 5px;
+    position: relative;
+    text-transform: none;
+    transition: color .4s;
+}
+
+.rep-button i, .rep-button svg {
+    display: none;
+  }
+
+.fa_dislike_list, .fa_like_list {
+    background-color: #2e2e2e;
+    clear: both;
+    font-size: 12px;
+    border-left: 5px solid #2b54a6;
+    margin: 0 0 6px;
+    padding: 2px 3px;
+}
+
+#fa_search #fa_magnifier {
+  background-image: none !important;
+}
+
+#fa_toolbar #fa_search {
+  display: none !important;
+}
+
+#fa_toolbar #fa_share {
+  display: none !important;
+}
+
+#fa_toolbar #fa_menulist {
+  background-color: #333333;
+}
+
+/* Textfarbe der Links */
+#fa_toolbar #fa_menulist a {
+  color: #6387cf !important;
+}
+/* Textfarbe des Rangs */
+#fa_toolbar a#fa_ranktitle {
+  color: #A6A6A6 !important;
+}
+
+#fa_toolbar #fa_usermenu .first, #fa_toolbar #fa_usermenu .first + td {
+  color: #A6A6A6;
+}
+
+#fa_toolbar #fa_usermenu .bold {
+  color: #6387cf;
+}
+
+#fa_right #fa_menu #fa_welcome, #fa_right.notification #fa_menu #fa_welcome, #fa_welcome, #fa_right #fa_notifications {
+ color: #6387cf;
+}
+
+/*Navigationsbar links*/
+.navibox {
+  width: 185px;
+  height: auto;
+  background-image: url(https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg); /* Hintergrund Bild */
+  background-color: none;
+  border-left: 3px solid #2b54a6; 
+  border-radius: 10px 0px 0px 10px; 
+  -webkit-border-radius: 10px 0px 0px 10px; 
+  -moz-border-radius: 10px 0px 0px 10px;
+  overflow: hidden;
+}
+.navihead {
+  height: 20px;
+  background-color: #2b54a6;
+  background-image: none;
+  margin: auto;
+}
+
+.vertical-menu {
+  width: 185px; /* Set a width if you like */
+}
+
+.vertical-menu a, .dropdown-btn {
+  background-color: none !important;
+  color: #6e6e6e !important; 
+  display: block; /* Make the links appear below each other */
+  padding: 12px !important; 
+  width: 185px !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  border: none !important;/* Remove underline from links */
+}
+
+.vertical-menu a:hover, .dropdown-btn:hover, .button:hover  {
+  background-color: #9f9f9f !important; /* Grey background on mouse-over */
+  background-image: none !important;
+  color: #2b54a6 !important;
+  border: none !important;
+  text-align: left !important;
+}
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #9f9f9f !important; /* Grey background on mouse-over */
+  background-image: none !important;
+  color: #2b54a6 !important;
+  border: none !important;
+  padding: 12px !important;
+  text-decoration: none !important;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: none !important;
+  padding-left: 5px;
+  color: #6e6e6e !important;
+}
+
+.button {
+  background-color: #000000 !important;
+  background-image: url(https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg); /* Hintergrund Bild */
+  color: #6e6e6e !important; 
+  display: block; /* Make the links appear below each other */
+  padding: 12px !important; 
+  width: 185px !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  border: none !important;/* Remove underline from links */
+}
+
+.navitext {
+  padding-left:11px; 
+  color: #000000; 
+  font-weight: bold;
+}
+
+.navibutton {
+  font-size: 12px; 
+  font-weight: bold;
+}
+
+.smolnavibutton {
+  font-size: 10px; 
+  font-weight: bold;
+}
+
+/*Gruppennummern waren hier*/
+
+/*Ändert den Titel Wer ist online unterhalb des Forums*/
+td.catHead [href="/viewonline"] {
+  position: relative;
+  left: 10px;
+  text-decoration: underline;
+}
+
+/*Fancy Spoiler aka Summary*/
+
+.spool {
+  text-align: center; 
+  position: relative; 
+  margin:auto; font-family: 'Exo 2', sans-serif; 
+  color: #2b54a6; 
+  font-size: 16px; 
+  font-weight: bold;
+}
+
+details {
+  width: 468px; 
+  margin: auto; 
+  background-image: url(https://cdn.discordapp.com/attachments/573134062391132162/864601947960770610/DarkerBackground.jpg); 
+  background-position: center;
+  background-repeat: auto; 
+  color: #6e6e6e;
+  padding: 4px;
+}
+
+details > summary {
+  padding: 4px; 
+  width: 460px; 
+  background-color: none; 
+  cursor: pointer; 
+  border-bottom: solid 2px #2b54a6; 
+  margin: auto;
+}
+
+/*Tabellencodes*/
+
+.greybox, greybox {
+  width:480px; 
+  margin: auto; 
+  border:1px solid #000000; 
+  box-shadow: 0px 0px 4px #000000; 
+  background-color: #454545; 
+  padding-bottom: 5px;
+  text-align: justify;
+  padding: 5px;
+  text-shadow: #000000 1px 1px 1px;
+}
+
+.greybox .titel{
+  width:470px; 
+  margin: auto; 
+  padding-top:5px; 
+  padding-bottom:5px; 
+  border-bottom:1px black solid; 
+  text-align: center; 
+  font-weight:bold;
+  color:#2b54a6; 
+  text-shadow: #000000 1px 1px 1px;
+}
+
+.greybox .titel2{
+  width:470px; 
+  margin: auto;
+  margin-top: 5px;
+  padding-top:5px; 
+  padding-bottom:5px; 
+  border-bottom:1px black solid;
+  border-top:1px black solid;
+  text-align: center; 
+  font-weight:bold;
+  color:#2b54a6; 
+  text-shadow: #000000 1px 1px 1px;
+}
+
+.greybox .ava{
+  width:470px; 
+  height:100px; 
+  margin:auto; 
+  margin-top: -12px; 
+  line-height:1;
+}
+
+.greybox .pic{
+  float: left; 
+  padding-right: 5px;
+}
+
+/*Fade für Team Seite*/
+
+.team{
+  filter: grayscale(100%);
+}
+
+.team:hover {
+  filter: none;
+  transition: 1s;
+}
+/*Hide Tag*/
+.hidecode dd{
+  padding:5px;
+  color:#6e6e6e;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: none;
+}
+
+/* Slides */
+.mySlides {
+  display:none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 9px;
+  user-select: none;
+  text-decoration: none !important;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 9px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #2b54a6;
+  color: white;
+  text-decoration: none !important;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #2b54a6;
+}
+
+/*Ausrichtung des Wahlschalters*/
+#wahl {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    text-align: center;/*left, center, right möglich*/
+    }
+
+/*Wahlschalter färben*/
+select{
+    background: #3d3d3d none repeat scroll 0 0 !important; /*Anpassung an das Forum*/
+    border: 1px solid #6e6e6e !important; /*Anpassung an das Forum*/
+    border-radius: 4px !important;
+    height: auto;
+    padding: 3px;
+    width: 140px;
+}
+
+input.post, textarea.post, select, #text_editor_iframe, textarea.inputbox{
+  background: #3d3d3d none repeat scroll 0 0 !important;
+}
+
+.bk {
+background-image: url(https://i75.servimg.com/u/f75/18/10/02/62/briefk16.png);
+  height:180px;
+  width: 180px;
+}
+
+/*Accountswitcher*/
+
+#accountswitch {
+    text-align: center;
+}
+#username, #password {
+    font-size: 11px;
+    display: inline-block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+#switch_username, #switch_password {
+    background: #3d3d3d none repeat scroll 0 0; /*Anpassung an das Forum*/
+    border: 1px solid #6e6e6e; /*Anpassung an das Forum*/
+    border-radius: 4px;
+    height: auto;
+    padding: 3px;
+    width: 140px;
+}
+#switch_username:hover, #switch_username:focus, #switch_password:hover, #switch_password:focus {
+    border: 1px solid #2b54a6; /*Anpassung an das Forum*/
+}
+div#accountswitch input.button2 {
+    cursor: pointer;
+    max-width: 120px;
+    text-align: center;
+}
+
+button.button2:hover, input.button2:hover {
+  border: 1px solid #2b54a6;
+  color: #2b54a6;
+  background-position: 0 100%;
+}
+
+/*Reiter Codes*/
+        .mon_onglet{
+  	  height: 20px;
+  	  float: left;
+          padding: 2px 10px;
+          margin:auto;
+          color: #2b54a6;
+          background: none;
+          border-top: 3px solid #2b54a6;
+          border-right: 3px hidden #2b54a6;
+          border-left: 3px hidden #2b54a6;
+          border-bottom: 0px hidden #2b54a6;
+          cursor: pointer;
+          list-style: none;
+          font-size:16px;
+          font-weight:bold;
+        }
+        .mon_onglet:hover{
+          background: #2b54a6;
+  	  color: #b5b5b5;
+          transition:0.5s;
+        }       
+        .mon_onglet_selected{
+  	  height:20px;
+          float: left;
+          padding: 2px 10px;
+          color: #2b54a6;
+          background: #b5b5b5;
+          border-top: 3px solid #2b54a6;
+          border-right: 3px hidden #2b54a6;
+          border-left: 3px hidden #2b54a6;
+          border-bottom: 0px hidden #2b54a6;
+          cursor: pointer;
+          list-style: none;
+          font-size:16px;
+  	  font-weight:bold;
+}         
+        .clear{
+          clear: both;
+        }
+        .mon_contenu{
+          color: #b5b5b5;
+          background: none;
+          border-top: 0px hidden #2b54a6;
+          border-right: 3px solid #2b54a6;
+          border-left: 3px solid #2b54a6;
+          border-bottom: 3px hidden #2b54a6;
+          border-bottom-left-radius: 20px;
+  	  border-bottom-right-radius: 20px;
+          border-top-right-radius: 20px;
+          padding: 10px;
+  	  margin-top:-2px;
+          line-height: normal;
+          font-size: 13px;}
+        #mes_contenus{
+          margin: auto;
+          }
+	 #mes_onglets {
+  	  padding-right: 40px;
+  	  margin: auto;
+          }
+	#o_1{
+  	  border-left:3px solid #2b54a6;
+	  border-top-left-radius: 20px;}
+
+/*Achievements*/
+
+.acms{
+  width:470px; 
+  max-height:250px; 
+  overflow: auto;
+  margin:auto; 
+  margin-top: -12px;
+  line-height:1;
+  padding-right: 3px;
+}
+
+.acmsinfo{
+  border-left: 3px solid #2b54a6; 
+  padding-left: 5px; 
+  font-style: italic;
+}
+
+.acmsloot{
+  min-height:75px; 
+  width: 175px; 
+  padding: 5px; 
+  border-left: 1px #000000 solid; 
+  float:right; 
+  margin-left:5px;
+}
