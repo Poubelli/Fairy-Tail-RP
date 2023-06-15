@@ -68,10 +68,10 @@ text-align: justify;
 
 .bodyline {
   border-radius: 80px;
-  border-right: 3px solid  #CF0000 !important;
-  border-left: 3px solid  #CF0000 !important;
-  border-top: 1px hidden #CF0000 !important;
-  border-bottom: 1px hidden #CF0000 !important;
+  border-right: 3px solid  #d32a2a !important;
+  border-left: 3px solid  #d32a2a !important;
+  border-top: 1px hidden #d32a2a !important;
+  border-bottom: 1px hidden #d32a2a !important;
   background: url("https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg") bottom center repeat #0d0d0d;
 }
   
@@ -94,8 +94,8 @@ margin-top: 6px;
 {
 font-size: 15px;
 text-transform: uppercase; 
-border-left: 6px solid #CF0000;  
-border-bottom: 1px solid #CF0000;
+border-left: 6px solid #d32a2a;  
+border-bottom: 1px solid #d32a2a;
 color: #6e6e6e !important;
 font-family: Georgia;
 }
@@ -103,7 +103,7 @@ font-family: Georgia;
 .forumlink a:hover
 {
 text-decoration: none !important;
-color: #CF0000 !important;
+color: #d32a2a !important;
 border-left: 6px solid #9f9f9f;
 border-bottom: 1px solid #9f9f9f;
 }
@@ -115,14 +115,14 @@ margin-left: auto;
 margin-right: auto;
 margin-bottom: 10px;
 margin-top: 10px;
-border-left: 1px solid #CF0000;
-border-right: 1px solid #CF0000;
-border-top: 1px solid #CF0000; 
-border-bottom: 1px solid #CF0000;
-box-shadow: 0px 0px 4px #CF0000;
--moz-box-shadow: 0px 0px 4px #CF0000;
--o-box-shadow: 0px 0px 4px #CF0000;
--webkit-box-shadow: 0px 0px 4px #CF0000;
+border-left: 1px solid #d32a2a;
+border-right: 1px solid #d32a2a;
+border-top: 1px solid #d32a2a; 
+border-bottom: 1px solid #d32a2a;
+box-shadow: 0px 0px 4px #d32a2a;
+-moz-box-shadow: 0px 0px 4px #d32a2a;
+-o-box-shadow: 0px 0px 4px #d32a2a;
+-webkit-box-shadow: 0px 0px 4px #d32a2a;
 -htm-box-shadow: 0px 0px 4px #000000;
 background: url("https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg") bottom center repeat #0d0d0d;
 }
@@ -130,7 +130,7 @@ background: url("https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg") bottom c
 .boxinfo{
   width: 95%; 
   padding: 5px; 
-  border: 1px solid #CF0000; 
+  border: 1px solid #d32a2a; 
   color: #868686; 
   margin: auto;
 }
@@ -291,7 +291,7 @@ a {
 border-radius: 1px;
 -moz-border-radius: 1px;
 -webkit-border-radius: 1px;
-border: 1px inset#CF0000;
+border: 1px inset#d32a2a;
 padding: 5px;
 background: #1a1a1a;
 color: #A6A6A6;
@@ -308,7 +308,7 @@ box-shadow: 1px 1px 1px #000000;
    -moz-box-shadow: 1px 1px 1px #000000;
    box-shadow: 1px 1px 1px #000000;
    color: #A6A6A6;
-   border: 1px solid #CF0000;
+   border: 1px solid #d32a2a;
 }
 
 .spoiler_closed, .codebox dd {
@@ -318,7 +318,7 @@ border-radius: 1px;
 -webkit-border-radius: 1px;
 -moz-box-shadow: 1px 1px 1px #000000;
 box-shadow: 1px 1px 1px #000000;
-border: 1px solid #CF0000;
+border: 1px solid #d32a2a;
 }
 .spoiler_content {
 background-color: #1a1a1a;
@@ -337,7 +337,7 @@ font-size: 95%;}
 .myname {
    font-family: Open Sans Condensed;
    font-size: 24px;
-   color: #CF0000;
+   color: #d32a2a;
    text-transform: uppercase;
    letter-spacing: -1px;
    text-align: center;
@@ -353,7 +353,7 @@ font-size: 95%;}
   color: #6e6e6e;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 1px solid #CF0000;
+  border-bottom: 1px solid #d32a2a;
   text-shadow: #000000  0px 0px 1px;
 }
 
@@ -365,13 +365,13 @@ font-size: 95%;}
   color: #6e6e6e;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 1px solid #CF0000;
+  border-bottom: 1px solid #d32a2a;
   text-shadow: #000000  0px 0px 1px;
 }
 
 t1 {
    text-align: center;
-   background:none repeat scroll 0 0 #CF0000;
+   background:none repeat scroll 0 0 #d32a2a;
    -moz-background-clip: border;
    -moz-background-origin: padding;
    -moz-background-inline-policy: continuous;
@@ -391,7 +391,7 @@ t1 {
 t2 {
    text-align: center;
    background:none repeat scroll 0 0 none;
-   border-bottom: 3px solid #CF0000 !important;
+   border-bottom: 3px solid #d32a2a !important;
    -moz-background-clip: border;
    -moz-background-origin: padding;
    -moz-background-inline-policy: continuous;
@@ -413,7 +413,7 @@ t3 {
   text-align: center;
   margin:auto;
   font-size: 16px;
-  border-bottom: 1px dashed #CF0000;
+  border-bottom: 1px dashed #d32a2a;
 }
 
 tMed1 {
@@ -481,12 +481,12 @@ h6 {
    padding-bottom: 10px;
    width: 95%;
    height: relative;
-   border: 1px solid #CF0000;
+   border: 1px solid #d32a2a;
    background-image: url(https://i.servimg.com/u/f82/16/01/65/00/bwbguq10.png);
    font-weight:normal;
    font-family: verdana,arial, sans-serif;
   font-size: 12px;
-  box-shadow: 2px 2px 2px #CF0000;
+  box-shadow: 2px 2px 2px #d32a2a;
 }
 
 titel1 {
@@ -498,9 +498,9 @@ titel1 {
   margin-bottom: -60px; 
   height: 25px; 
   background-color: #1a1a1a; 
-  border-top: 4px solid #CF0000; 
-  border-left: 1px solid #CF0000; 
-  border-right: 1px solid #CF0000; 
+  border-top: 4px solid #d32a2a; 
+  border-left: 1px solid #d32a2a; 
+  border-right: 1px solid #d32a2a; 
   border-radius: 30px; 
   -moz-border-radius: 30px; 
   -o-border-radius: 30px; 
@@ -530,20 +530,20 @@ nachname2 {
   line-height: 3em;
   overflow: auto;
   padding: 5px;
-  border: 1px outset #CF0000;
+  border: 1px outset #d32a2a;
   border-radius: 8px; 
   -moz-border-radius: 8px; 
   -o-border-radius: 8px;
   -webkit-border-radius: 8px; 
   -htm-border-radius: 8px; 
-  -moz-box-shadow: 2px 2px 2px #CF0000;
-  box-shadow: 2px 2px 2px #CF0000;
+  -moz-box-shadow: 2px 2px 2px #d32a2a;
+  box-shadow: 2px 2px 2px #d32a2a;
 }
 
 .charpic {
   display: center;
   width: 520px;
-  border: 1px dashed #CF0000;
+  border: 1px dashed #d32a2a;
   border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -557,7 +557,7 @@ bwtitle {
    background:none repeat scroll 0 0 #000000;
    font-size: 25px;
    line-height: 30px;
-   color:#CF0000;
+   color:#d32a2a;
    text-shadow: 1px 1px 1px;
    font-weight:normal;
    font-family: \'Poiret One\', cursive;
@@ -570,8 +570,8 @@ bwtitle {
   background: #1A1A1A; 
   width: 750px; 
   background-image: url(http://abload.de/img/leisteewy7p.png); 
-  border-top: solid 2px #CF0000; 
-  border-bottom: solid 2px #CF0000;
+  border-top: solid 2px #d32a2a; 
+  border-bottom: solid 2px #d32a2a;
 }
 
 .tabello {
@@ -586,7 +586,7 @@ bwtitle {
   font-family:Palatino Linotype;
   font-size:30px;
   text-align:center;
-  color:#CF0000;
+  color:#d32a2a;
   font-variant:small-caps;
   letter-spacing:2px;
   font-weight:bold;
@@ -633,7 +633,7 @@ bwtitle {
   text-transform:none;
   text-shadow:0px 1px 1px #00000;
   line-height:12px;
-  background-color:#CF0000;
+  background-color:#d32a2a;
 } 
 
 .boux {
@@ -655,7 +655,7 @@ bwtitle {
 
 bw {
 font-weight: bold;
-color: #cf0000;
+color: #d32a2a;
 }
 
 /*Forencodes Bewerbung ab 2023*/
@@ -675,7 +675,7 @@ color: #cf0000;
 .bewerbung h1, .bewerbung h2, .bewerbung h3{
   font-family:Palatino Linotype;
   text-align: center;
-  color: #CF0000;
+  color: #d32a2a;
   font-variant: small-caps;
   letter-spacing: 2px;
   font-weight: bold;
@@ -709,7 +709,7 @@ color: #cf0000;
 
 bw2 {
   font-weight: bold;
-  color: #CF0000;
+  color: #d32a2a;
 }
 
 .statblock{
@@ -720,7 +720,7 @@ bw2 {
 
 .bewerbung werte{
   font-weight: bold;
-  color: #CF0000;
+  color: #d32a2a;
   width:140px;
   float:left;
   display:block;
@@ -736,9 +736,9 @@ bw2 {
 
 .bewerbung pot{
   font-weight: bold;
-  color: #CF0000;
+  color: #d32a2a;
   font-weight: bold;
-  color: #CF0000;
+  color: #d32a2a;
   float:left;
   text-float:left;
   display:block
@@ -747,7 +747,7 @@ bw2 {
 .bwbild{
   background-color:black;
   color:white;
-  border:1px solid #CF0000:5px;
+  border:1px solid #d32a2a:5px;
   float:left; 
   height:400px;
   width:250px;
@@ -758,7 +758,7 @@ bw2 {
 .bwbild2{
   background-color:black;
   color:white;
-  border:1px solid #CF0000:5px;
+  border:1px solid #d32a2a:5px;
   width:500px;
   height:290px;
   margin:auto;
@@ -805,7 +805,7 @@ img#i_logo {
     background-color: #2e2e2e;
     clear: both;
     font-size: 12px;
-    border-left: 5px solid #cf0000;
+    border-left: 5px solid #d32a2a;
     margin: 0 0 6px;
     padding: 2px 3px;
 }
@@ -853,7 +853,7 @@ img#i_logo {
   height: auto;
   background-image: url(https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg); /* Hintergrund Bild */
   background-color: none;
-  border-left: 3px solid #CF0000; 
+  border-left: 3px solid #d32a2a; 
   border-radius: 10px 0px 0px 10px; 
   -webkit-border-radius: 10px 0px 0px 10px; 
   -moz-border-radius: 10px 0px 0px 10px;
@@ -861,7 +861,7 @@ img#i_logo {
 }
 .navihead {
   height: 20px;
-  background-color: #CF0000;
+  background-color: #d32a2a;
   background-image: none;
   margin: auto;
 }
@@ -884,7 +884,7 @@ img#i_logo {
 .vertical-menu a:hover, .dropdown-btn:hover, .button:hover  {
   background-color: #9f9f9f !important; /* Grey background on mouse-over */
   background-image: none !important;
-  color: #CF0000 !important;
+  color: #d32a2a !important;
   border: none !important;
   text-align: left !important;
 }
@@ -892,7 +892,7 @@ img#i_logo {
 .active {
   background-color: #9f9f9f !important; /* Grey background on mouse-over */
   background-image: none !important;
-  color: #CF0000 !important;
+  color: #d32a2a !important;
   border: none !important;
   padding: 12px !important;
   text-decoration: none !important;
@@ -949,7 +949,7 @@ td.catHead [href="/viewonline"] {
   text-align: center; 
   position: relative; 
   margin:auto; font-family: 'Exo 2', sans-serif; 
-  color: #CF0000; 
+  color: #d32a2a; 
   font-size: 16px; 
   font-weight: bold;
 }
@@ -969,7 +969,7 @@ details > summary {
   width: 460px; 
   background-color: none; 
   cursor: pointer; 
-  border-bottom: solid 2px #CF0000; 
+  border-bottom: solid 2px #d32a2a; 
   margin: auto;
 }
 
@@ -995,7 +995,7 @@ details > summary {
   border-bottom:1px black solid; 
   text-align: center; 
   font-weight:bold;
-  color:#CF0000; 
+  color:#d32a2a; 
   text-shadow: #000000 1px 1px 1px;
 }
 
@@ -1009,7 +1009,7 @@ details > summary {
   border-top:1px black solid;
   text-align: center; 
   font-weight:bold;
-  color:#CF0000; 
+  color:#d32a2a; 
   text-shadow: #000000 1px 1px 1px;
 }
 
@@ -1079,7 +1079,7 @@ details > summary {
 }
 
 .prev:hover, .next:hover {
-  background-color: #CF0000;
+  background-color: #d32a2a;
   color: white;
   text-decoration: none !important;
 }
@@ -1105,7 +1105,7 @@ details > summary {
 
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
-  background-color: #CF0000;
+  background-color: #d32a2a;
 }
 
 /*Ausrichtung des Wahlschalters*/
@@ -1156,7 +1156,7 @@ background-image: url(https://i75.servimg.com/u/f75/18/10/02/62/briefk16.png);
     width: 140px;
 }
 #switch_username:hover, #switch_username:focus, #switch_password:hover, #switch_password:focus {
-    border: 1px solid #cf0000; /*Anpassung an das Forum*/
+    border: 1px solid #d32a2a; /*Anpassung an das Forum*/
 }
 div#accountswitch input.button2 {
     cursor: pointer;
@@ -1165,8 +1165,8 @@ div#accountswitch input.button2 {
 }
 
 button.button2:hover, input.button2:hover {
-  border: 1px solid #cf0000;
-  color: #cf0000;
+  border: 1px solid #d32a2a;
+  color: #d32a2a;
   background-position: 0 100%;
 }
 
@@ -1176,19 +1176,19 @@ button.button2:hover, input.button2:hover {
   	  float: left;
           padding: 2px 10px;
           margin:auto;
-          color: #CF0000;
+          color: #d32a2a;
           background: none;
-          border-top: 3px solid #CF0000;
-          border-right: 3px hidden #CF0000;
-          border-left: 3px hidden #CF0000;
-          border-bottom: 0px hidden #CF0000;
+          border-top: 3px solid #d32a2a;
+          border-right: 3px hidden #d32a2a;
+          border-left: 3px hidden #d32a2a;
+          border-bottom: 0px hidden #d32a2a;
           cursor: pointer;
           list-style: none;
           font-size:16px;
           font-weight:bold;
         }
         .mon_onglet:hover{
-          background: #CF0000;
+          background: #d32a2a;
   	  color: #b5b5b5;
           transition:0.5s;
         }       
@@ -1196,12 +1196,12 @@ button.button2:hover, input.button2:hover {
   	  height:20px;
           float: left;
           padding: 2px 10px;
-          color: #CF0000;
+          color: #d32a2a;
           background: #b5b5b5;
-          border-top: 3px solid #CF0000;
-          border-right: 3px hidden #CF0000;
-          border-left: 3px hidden #CF0000;
-          border-bottom: 0px hidden #CF0000;
+          border-top: 3px solid #d32a2a;
+          border-right: 3px hidden #d32a2a;
+          border-left: 3px hidden #d32a2a;
+          border-bottom: 0px hidden #d32a2a;
           cursor: pointer;
           list-style: none;
           font-size:16px;
@@ -1213,10 +1213,10 @@ button.button2:hover, input.button2:hover {
         .mon_contenu{
           color: #b5b5b5;
           background: none;
-          border-top: 0px hidden #CF0000;
-          border-right: 3px solid #CF0000;
-          border-left: 3px solid #CF0000;
-          border-bottom: 3px hidden #CF0000;
+          border-top: 0px hidden #d32a2a;
+          border-right: 3px solid #d32a2a;
+          border-left: 3px solid #d32a2a;
+          border-bottom: 3px hidden #d32a2a;
           border-bottom-left-radius: 20px;
   	  border-bottom-right-radius: 20px;
           border-top-right-radius: 20px;
@@ -1232,7 +1232,7 @@ button.button2:hover, input.button2:hover {
   	  margin: auto;
           }
 	#o_1{
-  	  border-left:3px solid #CF0000;
+  	  border-left:3px solid #d32a2a;
 	  border-top-left-radius: 20px;}
 
 /*Achievements*/
@@ -1248,7 +1248,7 @@ button.button2:hover, input.button2:hover {
 }
 
 .acmsinfo{
-  border-left: 3px solid #CF0000; 
+  border-left: 3px solid #d32a2a; 
   padding-left: 5px; 
   font-style: italic;
 }
