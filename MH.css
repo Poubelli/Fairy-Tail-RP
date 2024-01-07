@@ -954,20 +954,10 @@ td.catHead [href="/viewonline"] {
   font-weight: bold;
 }
 
-details {
-  width: 468px; 
-  margin: auto; 
-  background-image: url(https://cdn.discordapp.com/attachments/573134062391132162/864601947960770610/DarkerBackground.jpg); 
-  background-position: center;
-  background-repeat: auto; 
-  color: #6e6e6e;
-  padding: 4px;
-}
-
 details > summary {
   padding: 4px; 
   width: 460px; 
-  background-color: none; 
+  background-color: #2e2e2e; 
   cursor: pointer; 
   border-bottom: solid 2px #FFD900; 
   margin: auto;
