@@ -996,6 +996,18 @@ details > summary {
   text-shadow: #000000 1px 1px 1px;
 }
 
+.greybox2 .titel{
+  width:470px; 
+  margin: auto; 
+  padding-top:5px; 
+  padding-bottom:5px; 
+  border-bottom:1px white solid; 
+  text-align: center; 
+  font-weight:bold;
+  color:#d32a2a; 
+  text-shadow: #000000 1px 1px 1px;
+}
+
 .greybox .titel2{
   width:470px; 
   margin: auto;
@@ -1010,7 +1022,21 @@ details > summary {
   text-shadow: #000000 1px 1px 1px;
 }
 
-.greybox .ava{
+.greybox2 .titel2{
+  width:470px; 
+  margin: auto;
+  margin-top: 5px;
+  padding-top:5px; 
+  padding-bottom:5px; 
+  border-bottom:1px white solid;
+  border-top:1px white solid;
+  text-align: center; 
+  font-weight:bold;
+  color:#DB6902; 
+  text-shadow: #000000 1px 1px 1px;
+}
+
+.greybox .ava, .greybox2 .ava{
   width:470px; 
   height:100px; 
   margin:auto; 
@@ -1018,9 +1044,26 @@ details > summary {
   line-height:1;
 }
 
-.greybox .pic{
+.greybox .pic,.greybox2 .pic{
   float: left; 
   padding-right: 5px;
+}
+
+.greybox2, greybox2 {
+  width:480px; 
+  margin: auto; 
+  border:0px solid #000000; 
+  box-shadow: 0px 0px 4px #000000; 
+  background-color: #2E2E2E; 
+  padding-bottom: 5px;
+  text-align: justify;
+  padding: 5px;
+  text-shadow: #000000 1px 1px 1px;
+}
+
+. greybox2 .breaker {
+  height:0px; 
+  border-bottom:1px solid #ffffff;
 }
 
 /*Fade für Team Seite*/
