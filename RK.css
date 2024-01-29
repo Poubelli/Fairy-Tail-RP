@@ -847,6 +847,19 @@ img#i_logo {
  color: #6387cf;
 }
 
+#fa_menu:hover :visited, #fa_toolbar > #fa_right.notification > #fa_notifications {
+    color: none;
+    background-color: #e5e5e5;
+}
+
+#fa_toolbar #fa_right #notif_list {
+    background-color: #e5e5e5;
+}
+
+#fa_toolbar #fa_right #notif_list.unread {
+    background-color: #c3c3c3;
+}
+
 /*Navigationsbar links*/
 .navibox {
   width: 185px;
