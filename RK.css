@@ -1307,3 +1307,13 @@ button.button2:hover, input.button2:hover {
   float:right; 
   margin-left:5px;
 }
+
+.mft {
+background-image: url(https://i.servimg.com/u/f75/18/10/02/62/rkwhit10.png);
+  height:17px;
+  width: 15px;
+  background-size: 15px; 
+  background-repeat:no-repeat;
+  float: left;
+  padding-right: 5px;
+}
