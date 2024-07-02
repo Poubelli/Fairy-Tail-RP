@@ -77,7 +77,6 @@ text-align: justify;
   
 body
 {
-background: url(http://abload.de/img/leisteewy7p.png) top center repeat;
 max-width: relative;}
 
 .forumlink
@@ -569,7 +568,6 @@ bwtitle {
 .hintergrund {
   background: #1A1A1A; 
   width: 750px; 
-  background-image: url(http://abload.de/img/leisteewy7p.png); 
   border-top: solid 2px #0B7A0B; 
   border-bottom: solid 2px #0B7A0B;
 }
@@ -578,7 +576,6 @@ bwtitle {
   align: center; 
   width: 750px; 
   cellspacing: 4; 
-  background-image: url(http://abload.de/img/leisteewy7p.png); 
   colspan: 2;
 }
 
@@ -611,8 +608,7 @@ bwtitle {
 
 .td1 {
   colspan: 2; 
-  background-image: url(http://abload.de/img/leisteewy7p.png);
-}
+  }
 
 .td2 {
   colspan: 1; 
@@ -642,7 +638,6 @@ bwtitle {
   max-height:600px; 
   overflow: auto;
   text-align:left; 
-  background-image:url(http://abload.de/img/forenb122xsmn.jpg); 
   font-family: Tahoma; 
   color:#A6A6A6; 
   font-size:12px; 
