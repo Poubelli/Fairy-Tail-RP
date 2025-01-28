@@ -1319,3 +1319,36 @@ background-image: url(https://i.servimg.com/u/f75/18/10/02/62/glwhit10.png);
   float: left;
   padding-right: 5px;
 }
+
+/*Forengrids*/
+
+.topic-card .card-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    border-top: 1px solid #D1BC8A;
+    padding-top: 8px;
+}
+
+.card-footer .time {
+    color: #B5B5B5;
+    font-size: 12px;
+}
+
+.topic-card .description {
+    color: #B5B5B5;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.topic-card .card-content {
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: url(https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg) bottom center repeat #0d0d0d;
+    border-bottom: 1px solid #D1BC8A;
+}
