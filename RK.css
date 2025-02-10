@@ -1356,3 +1356,24 @@ background-image: url(https://i.servimg.com/u/f75/18/10/02/62/rkwhit10.png);
     display: block;
     font-size: 0;
 }
+
+.topic-card .stats span {
+    background-color: #262d38c2; /*Das c2 hat Einfluss auf die Transparenz von nur dem Background, der Text ist unaffected*/
+    border-radius: 5px;
+    padding: 4px 10px;
+    display: inline-flex;
+    gap: 5px;
+}
+
+.topic-card .topic-type {
+  border-radius: 5px;
+  padding: 3px 10px;
+  background-color: #2b54a62c;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  top: 10px;
+  right: 10px;
+  position: absolute;
+}
