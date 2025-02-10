@@ -1352,3 +1352,14 @@ background-image: url(https://i.servimg.com/u/f75/18/10/02/62/glwhit10.png);
     background: url(https://i.servimg.com/u/f26/20/15/96/73/backgr12.jpg) bottom center repeat #0d0d0d;
     border-bottom: 1px solid #D1BC8A;
 }
+
+.topic-card .author-avatar img {
+    border: 1px solid #D1BC8A;
+    width: 30px;
+    height: 60px;
+    border-radius: 20%;
+    background-color: #eeeeee;
+    overflow: hidden;
+    display: block;
+    font-size: 0;
+}
